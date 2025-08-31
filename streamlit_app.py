@@ -29,6 +29,12 @@ import os
 from pathlib import Path
 import time
 
+st.set_page_config(
+        page_title="PDF to Speech Converter",
+        page_icon="🎙️",
+        layout="wide"
+    )
+
 # Import our assignment functions
 try:
     from assignment1 import (
@@ -43,11 +49,6 @@ except ImportError:
 
 
 def main():
-    st.set_page_config(
-        page_title="PDF to Speech Converter",
-        page_icon="🎙️",
-        layout="wide"
-    )
     
     st.title("🎙️ PDF to Speech Converter")
     st.markdown("Convert PDF documents to speech using Google TTS or Voice Cloning")
