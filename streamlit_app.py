@@ -31,7 +31,7 @@ import time
 
 # Import our assignment functions
 try:
-    from Assignment1 import (
+    from assignment1 import (
         streamlit_pdf_to_speech_gtts,
         streamlit_pdf_to_speech_clone,
         get_pdf_info,
