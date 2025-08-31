@@ -251,7 +251,7 @@ def convert_pdf_to_speech_voice_clone(
     language: str = "en"
 ) -> str:
     """
-    Convert PDF to speech using voice cloning with Coqui TTS.
+    Convert PDF to speech using voice cloning with Coqui TTS..
     
     Args:
         pdf_path (str): Path to PDF file
