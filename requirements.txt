@@ -1,0 +1,20 @@
+# Requirements for TTS (Text-to-Speech) Project
+# Generated based on actual imports in the codebase
+
+# Core dependencies
+streamlit                # Web app framework
+PyMuPDF                 # PDF processing (imported as fitz)
+numpy                   # Numerical computing
+soundfile               # Audio file I/O
+librosa                 # Audio analysis
+
+# Text-to-Speech engines
+gtts                    # Google Text-to-Speech
+TTS                     # Coqui TTS for voice cloning
+
+# Optional audio processing
+noisereduce             # Noise reduction
+scipy                   # Scientific computing (for signal processing)
+
+# Speech recognition (used in SelfTraining)
+openai-whisper          # Speech recognition
